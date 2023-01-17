@@ -2,7 +2,21 @@
 
 
 ## Contents
--[Description](#description)
+[Description](#description)
+
+[User Story](#user-story)
+
+[Acceptance Criteria](#acceptance-criteria)
+
+[Installation](#installation)
+
+[Usage](#usage)
+
+[Resources & Credit](#resourcescredit)
+
+[Features](#features)
+
+[Application Screenshot Preview](#application-screenshot-preview)
 
 ## Description 
 
@@ -33,9 +47,21 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
-### Installation
+## Installation
 ```md
 npm i
+```
+
+## Usage
+```
+mysql -u root -p 
+```
+when prompted type in your MySQL password
+```
+source db/schema.sql
+exit
+npm run seed
+node server.js
 ```
 
 

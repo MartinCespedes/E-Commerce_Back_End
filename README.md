@@ -78,6 +78,7 @@ node server.js
 ## Resources/Credit
 
 - Starter Code Provided by UM Bootcamp
+- Author: Martin Cespedes - [Link to my Github](https://github.com/MartinCespedes)
 
 ## Features
 
@@ -92,3 +93,9 @@ node server.js
 ##
 
 ![E-Commerce_SQL](./images/E-Commerce_IMG2.png)
+
+## License
+
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+Copyright (c) 2023 Martin Cespedes. All rights reserved.

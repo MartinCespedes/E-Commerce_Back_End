@@ -1,7 +1,13 @@
 ## Object-Relational Mapping (ORM) E-Commerce Back End
 
+- [Live Demo]()
+
+- ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+- ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## Contents
+
 [Description](#description)
 
 [User Story](#user-story)
@@ -18,21 +24,22 @@
 
 [Application Screenshot Preview](#application-screenshot-preview)
 
-## Description 
+## Description
 
 - Internet retail, also known as e-commerce, is the largest sector of the electronics industry, having generated an estimated US$29 trillion in 2017 (Source: United Nations Conference on Trade and Development). E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.
 
 - My task is to build the back end for an e-commerce site. I will be using Express.js API and configure it to use Sequelize to interact with a MySQL database.
 
-
 ### User Story
+
 ```md
 AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 ```
 
-### Acceptance Criteria 
+### Acceptance Criteria
+
 ```md
 GIVEN a functional Express.js API
 WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
@@ -48,15 +55,19 @@ THEN I am able to successfully create, update, and delete data in my database
 ```
 
 ## Installation
+
 ```md
 npm i
 ```
 
 ## Usage
+
 ```
-mysql -u root -p 
+mysql -u root -p
 ```
+
 when prompted type in your MySQL password
+
 ```
 source db/schema.sql
 exit
@@ -64,22 +75,20 @@ npm run seed
 node server.js
 ```
 
-
 ## Resources/Credit
-* Starter Code Provided by UM Bootcamp 
 
+- Starter Code Provided by UM Bootcamp
 
 ## Features
-* Express.js
-* MySQL
-* Sequelize
 
+- Express.js
+- MySQL
+- Sequelize
 
 ## Application Screenshot Preview (Insomnia)
 
 ![E-Commerce_SQL](./images/E-Commerce_IMG1.png)
 
 ##
+
 ![E-Commerce_SQL](./images/E-Commerce_IMG2.png)
-
-

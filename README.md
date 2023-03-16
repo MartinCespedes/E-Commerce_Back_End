@@ -1,6 +1,6 @@
 ## Object-Relational Mapping (ORM) E-Commerce Back End
 
-- [Live Demo]()
+- [Live Demo](https://drive.google.com/file/d/1EF2ruLfLVADquC9gUSsbWieEUHMKMo-v/view)
 
 - ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 - ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -56,23 +56,86 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Installation
 
-```md
-npm i
+1. Cloning the Repository
+
+- First, clone the repository containing the functional Express.js API:
+
 ```
+git clone <repository-url>
+cd <repository-folder>
+```
+
+2. Setting up Environment Variables
+
+- Create a .env file in the root of the project folder and add your MySQL database credentials:
+
+```
+DB_NAME=<your-database-name>
+DB_USER=<your-mysql-username>
+DB_PASSWORD=<your-mysql-password>
+```
+
+- This will enable you to connect to the database using Sequelize.
 
 ## Usage
 
-```
-mysql -u root -p
-```
+1. Creating and Seeding the Development Database
 
-when prompted type in your MySQL password
+- Install the required dependencies:
 
 ```
-source db/schema.sql
-exit
+npm install
+```
+
+2. Run the schema and seed commands & start the server with:
+
+```
 npm run seed
-node server.js
+npm start
+```
+
+3. Testing API GET Routes
+
+- Open API GET routes in Insomnia (or any API client of your choice) for categories, products, or tags:
+
+```
+GET http://localhost:3001/api/categories
+GET http://localhost:3001/api/products
+GET http://localhost:3001/api/tags
+
+```
+
+- The data for each of these routes will be displayed in a formatted JSON.
+
+4. Testing API POST, PUT, and DELETE Routes:
+
+- Test API POST, PUT, and DELETE routes in Insomnia to create, update, and delete data in your database:
+
+- Categories
+
+```
+POST http://localhost:3001/api/categories
+PUT http://localhost:3001/api/categories/:id
+DELETE http://localhost:3001/api/categories/:id
+
+```
+
+- Products
+
+```
+POST http://localhost:3001/api/products
+PUT http://localhost:3001/api/products/:id
+DELETE http://localhost:3001/api/products/:id
+
+```
+
+- Tags
+
+```
+POST http://localhost:3001/api/tags
+PUT http://localhost:3001/api/tags/:id
+DELETE http://localhost:3001/api/tags/:id
+
 ```
 
 ## Resources/Credit

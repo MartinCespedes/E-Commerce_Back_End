@@ -148,6 +148,7 @@ DELETE http://localhost:3001/api/tags/:id
 - Express.js
 - MySQL
 - Sequelize
+- JavaScript
 
 ## Application Screenshot Preview (Insomnia)
 
